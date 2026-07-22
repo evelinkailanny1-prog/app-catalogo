@@ -16,7 +16,11 @@ def index(request):
 
 def detalhes(request, id):
 
+<<<<<<< HEAD
     obra = get_object_or_404(Obra, id=id)
+=======
+    obra = get_object_or_404(Obra , id=id   )
+>>>>>>> 801b4adecbe425b0fa867953bf92ad593bd6ce9e
 
     context = {
         "obra": obra,
